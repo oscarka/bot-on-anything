@@ -2,10 +2,18 @@
   "model": {
     "type" : "chatgpt",
     "openai": {
-      "api_key": "YOUR API KEY",
+      "api_key": "d331f54b48c44ea7aeee349a01be247c",
       "api_base": "",
+      "open_ai_api_base":"https://oscarchatapi.openai.azure.com/",
+      "azure_deployment_id": "oscarapi",
+      "use_azure_chatgpt": true,  
       "model": "gpt-3.5-turbo",
       "proxy": "",
+
+
+
+
+      
       "conversation_max_tokens": 1000,
       "temperature":0.75,
       "top_p":0.7,
